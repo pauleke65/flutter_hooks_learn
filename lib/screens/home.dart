@@ -6,6 +6,7 @@ import 'package:flutter_hooks_learn/screens/use_effect.dart';
 import 'package:flutter_hooks_learn/screens/use_future.dart';
 import 'package:flutter_hooks_learn/screens/use_state.dart';
 import 'package:flutter_hooks_learn/screens/use_stream.dart';
+import 'package:flutter_hooks_learn/screens/use_tab_controller.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -22,6 +23,7 @@ class HomePage extends StatelessWidget {
           CustomButton(text: "useStream", child: UseStreamScreen()),
           CustomButton(
               text: "useAnimationController", child: UseAnimationController()),
+          CustomButton(text: "useTabController", child: UseTabController()),
         ],
       ),
     );
